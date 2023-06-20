@@ -1,0 +1,484 @@
+
+/*body link used - https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend*/
+body
+{
+    margin: 0px;
+}
+
+.homepagecontainer{
+    font-family: Arial, sans-serif;
+    position: relative;
+    text-align: justify;
+    background-color: #090909;
+}
+
+#homepage {
+    text-align: center;
+    display: block;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+    background-color: #090909;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: 75px;
+}
+/*Nav Bar links used - */
+/*1) https://stackoverflow.com/questions/13369112/navigation-bar-entire-width-spaced-items-evenly*/
+/*2) https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border*/
+.topnavbar {
+    display: block;
+    background-color: white;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding:12px 0 13px 0;
+
+}
+.topnavbar a{
+    color: black;
+    padding-top: 600px;
+    text-decoration: blink;
+    font-size: 20pt;
+    background-color: white;
+
+}
+
+.topnavbar li {
+    display:block;
+    float:left;
+    width: 20%;
+    background-color: white;
+}
+
+
+.topnavbar a:hover{
+    overflow: hidden;
+    border-bottom: 3px solid #f77fbe;
+    color: black;
+}
+#homepara{
+    text-align: justify;
+    padding-bottom: 1000px;
+    font-size: 75px;
+}
+
+#homeimg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#homeimgdarken {
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     /*opacity:0.3;*/
+ }
+
+
+.centertextblurred{
+    color:  white;
+    position: absolute;
+    bottom: 70%;
+    center: 50%;
+    right: 57%;
+    font-size: 35px;
+    text-align: left;
+    text-emphasis: #FFFFFF;
+    width: 40%;
+    text-shadow: grey;
+}
+
+.centertext{
+    color:  black;
+    position: absolute;
+    background: #FFFFFF;
+    bottom: 50%;
+    center: 50%;
+    left: 10%;
+    right: 10%;
+    margin: 300px;
+    /*left: 40%;*/
+    /*right: 40%;*/
+    padding-left: 50px;
+    /*padding-bottom: 20px;*/
+    padding-right: 50px;
+    font-size: 35px;
+    text-align: justify;
+    text-emphasis: #FFFFFF;
+    width: 50%;
+}
+
+
+
+
+/*____________________________ABOUT PAGE_______________*/
+.toptext
+{
+    color:  #FFFFFF;
+    position: absolute;
+    bottom: 50%;
+    center: 50%;
+    padding-left: 700px;
+    padding-bottom: 30px;
+    padding-right: 700px;
+    font-size: 45px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+}
+
+/*Nav Bar links used - */
+/*1) https://stackoverflow.com/questions/13369112/navigation-bar-entire-width-spaced-items-evenly*/
+/*2) https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border*/
+.abouttopnavbar {
+    display: block;
+    background-color: #090909;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding:12px 0 13px 0;
+
+}
+.abouttopnavbar a{
+    color: #FFFFFF;
+    padding-top: 600px;
+    text-decoration: blink;
+    font-size: 20pt;
+    background-color: #090909;
+
+}
+
+.abouttopnavbar li {
+    display:block;
+    float:left;
+    width: 20%;
+    background-color: #090909;
+}
+
+
+.abouttopnavbar a:hover {
+    overflow: hidden;
+    border-bottom: 3px solid dodgerblue;
+    color: #FFFFFF;
+}
+
+/*____________________________________MENU PAGE_____________________________________*/
+.menutext
+{
+    color:  white;
+    position: absolute;
+    bottom: 50%;
+    padding-left: 700px;
+    padding-bottom: 300px;
+    padding-right: 700px;
+    font-size: 40px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+    border-bottom: #FFFFFF;
+}
+
+/*Link used*/
+/*https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table3*/
+table, tr, td, tbody, th{
+    color: rebeccapurple;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border:2px solid white ;
+    font-size: 12px;
+    border-collapse: collapse;
+    text-emphasis: white;
+    font-size: 15px;
+}
+
+
+.menuitems
+{
+    color: white;
+    position: absolute;
+    top: 30%;
+    center: 50%;
+    padding-left: 700px;
+    /*padding-top: 100px;*/
+    padding-right: 700px;
+    font-size: 20px;
+    text-align: justify;
+    text-emphasis: #FFFFFF;
+    border-bottom: #FFFFFF;
+}
+
+
+
+.brown{
+    color: saddlebrown;
+}
+
+.burlybrown{
+    color: sandybrown;
+}
+
+.green{
+    color: forestgreen;
+}
+
+/*Nav Bar links used - */
+/*1) https://stackoverflow.com/questions/13369112/navigation-bar-entire-width-spaced-items-evenly*/
+/*2) https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border*/
+.menutopnavbar {
+    display: block;
+    background-color: #090909;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding:12px 0 13px 0;
+
+}
+.menutopnavbar a{
+    color: white;
+    padding-top: 600px;
+    text-decoration: blink;
+    font-size: 20pt;
+    background-color: black;
+
+}
+
+.menutopnavbar li {
+    display:block;
+    float:left;
+    width: 20%;
+    background-color: black;
+}
+
+
+.menutopnavbar a:hover {
+    overflow: hidden;
+    border-bottom: 3px solid pink;
+    color: white;
+}
+
+
+#menutables{
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-top: 150px;
+    padding-left: 1300px;
+    padding-bottom: 700px;
+    padding-right: 200px;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+}
+
+#video1{
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-top: 800px;
+    padding-left: 700px;
+    /*padding-bottom: 1300px;*/
+    padding-right: 900px;
+    /*opacity:0.5;*/
+    /*background-blend-mode: color;*/
+    /*font-size: 30px;*/
+    /*text-align: center;*/
+}
+/*____________________________________________________CONTACT US______________________________________*/
+
+.contactustext{
+    color:  white;
+    position: absolute;
+    bottom: 35%;
+    center: 50%;
+    padding-left: 300px;
+    padding-bottom: 600px;
+    padding-right: 300px;
+    font-size: 35px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+}
+hr{
+    color: #FFFFFF;
+}
+form{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    /*border:2px solid grey ;*/
+    font-size: 30px;
+    border: #FFFFFF;
+    /*border-collapse: collapse;*/
+    /*text-emphasis: #090909;*/
+}
+label{
+    padding: 10px;
+    text-align: justify;
+}
+#submit{
+    padding-right: 1030px;
+    font-size: 30px;
+    size: 60px;
+}
+
+/*Nav Bar links used - */
+/*1) https://stackoverflow.com/questions/13369112/navigation-bar-entire-width-spaced-items-evenly*/
+/*2) https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border*/
+.contactustopnavbar {
+    display: block;
+    background-color: #090909;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding:12px 0 13px 0;
+
+}
+.contactustopnavbar a{
+    color: #FFFFFF;
+    padding-top: 600px;
+    text-decoration: blink;
+    font-size: 20pt;
+    background-color: #090909;
+
+}
+
+.contactustopnavbar li {
+    display:block;
+    float:left;
+    width: 20%;
+    background-color: #090909;
+}
+
+
+.contactustopnavbar a:hover {
+    overflow: hidden;
+    border-bottom: 3px solid #e5e500;
+    color: #FFFFFF;
+}
+/*-------------------------LOCATIONS----------------------------------*/
+#toptextloc1
+{
+    color:  cornflowerblue;
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-left: 100px;
+    padding-bottom: 800px;
+    padding-right: 1400px;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+
+}
+
+#toptextloc2
+{
+    color:  yellowgreen;
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-left: 600px;
+    padding-bottom: 700px;
+    padding-right: 1000px;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+
+}
+
+#toptextloc3
+{
+    color:  deeppink;
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-left: 1000px;
+    padding-bottom: 700px;
+    padding-right: 600px;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+}
+
+#toptextloc4
+{
+    color:  orange;
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-left: 1400px;
+    padding-bottom: 700px;
+    padding-right: 200px;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+}
+
+#hours
+{
+    color:  crimson;
+    position: absolute;
+    top: 30%;
+    bottom: 35%;
+    center: 50%;
+    padding-left: 700px;
+    padding-top: 800px;
+    padding-right: 700px;
+    font-size: 30px;
+    text-align: center;
+    text-emphasis: #FFFFFF;
+}
+
+/*Nav Bar links used - */
+/*1) https://stackoverflow.com/questions/13369112/navigation-bar-entire-width-spaced-items-evenly*/
+/*2) https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border*/
+.locationtopnavbar {
+    display: block;
+    background-color: #090909;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding:12px 0 13px 0;
+
+}
+.locationtopnavbar a{
+    color: #FFFFFF;
+    padding-top: 600px;
+    text-decoration: blink;
+    font-size: 20pt;
+    background-color: #090909;
+
+}
+
+.locationtopnavbar li {
+    display:block;
+    float:left;
+    width: 20%;
+    background-color: #090909;
+}
+
+
+.locationtopnavbar a:hover {
+    overflow: hidden;
+    border-bottom: 3px solid white;
+    color: #FFFFFF;
+}
+
+
+
